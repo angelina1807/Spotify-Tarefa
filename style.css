@@ -4,14 +4,14 @@
 }
 
 body {
-    background: #121212; /* fondo oscuro estilo Spotify */
+    background: #121212; 
     color: #fff;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1DB954; /* verde Spotify */
+    background-color: #1DB954; 
     padding: 20px;
     text-align: center;
     font-size: 2rem;
@@ -76,7 +76,7 @@ button {
 }
 
 button:hover {
-    background-color: #1ed760; /* verde más brillante al pasar */
+    background-color: #1ed760;
 }
 
 table {
@@ -117,3 +117,4 @@ th {
 .search-btn:hover {
     background-color: #1ed760;
 }
+
