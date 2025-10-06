@@ -34,7 +34,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// **Ativa CORS antes do UseAuthorization**
 app.UseCors("PermitirTudo");
 
 app.UseAuthorization();
@@ -42,3 +41,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
